@@ -3,20 +3,18 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>🎨 Color Palette Generator</title>
+  <title>🎨 Color Palette</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
   <div class="container">
     <h1>🎨 Color Palette Generator</h1>
-    <div class="palette" id="palette"></div>
-
     <div class="buttons">
       <button onclick="generatePalette()">🎲 New Palette</button>
-      <button onclick="toggleTheme()">🌙 Toggle Dark Mode</button>
+      <button onclick="toggleTheme()">🌓 Toggle Theme</button>
     </div>
+    <div class="palette" id="palette"></div>
   </div>
-
   <script src="script.js"></script>
 </body>
 </html>
